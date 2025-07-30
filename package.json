@@ -10,13 +10,14 @@
     "build-server": "cd server && npm run build",
     "install-all": "npm run install-client && npm run install-server",
     "build-all": "npm run build-client && npm run build-server",
+    "vercel-build": "npm run install-all && npm run build-all",
     "start": "cd server && npm start",
     "dev": "concurrently \"cd client && npm start\" \"cd server && npm start\""
   },
   "keywords": ["ecommerce", "react", "nodejs", "mongodb"],
   "author": "Subhajit Das",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "concurrently": "^8.2.2"
   }
 } 
