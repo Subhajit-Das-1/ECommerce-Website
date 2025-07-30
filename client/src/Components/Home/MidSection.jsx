@@ -29,14 +29,14 @@ const MidSection = () => {
         <>
             <Wrapper lg={12} sm={12} md={12} xs={12} container>
                 {
-                    ImageURL.map(image => (
-                        <Grid item lg={4} md={4} sm={12} xs={12}>
-                            <img src={image} style={{ width: '100%' }} />
+                    ImageURL.map((image, index) => (
+                        <Grid item lg={4} md={4} sm={12} xs={12} key={index}>
+                            <img src={image} alt={`Mid section image ${index + 1}`} style={{ width: '100%' }} />
                         </Grid>
                     ))
                 }
             </Wrapper>
-            <Image src={url} />
+            <Image src={url} alt="Mid section banner" />
         </>
     )
 }
