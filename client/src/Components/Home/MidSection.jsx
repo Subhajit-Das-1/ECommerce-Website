@@ -31,7 +31,7 @@ const MidSection = () => {
                 {
                     ImageURL.map((image, index) => (
                         <Grid item lg={4} md={4} sm={12} xs={12} key={index}>
-                            <img src={image} alt={`Mid section image ${index + 1}`} style={{ width: '100%' }} />
+                            <img src={image} alt={`Mid section ${index + 1}`} style={{ width: '100%' }} />
                         </Grid>
                     ))
                 }
