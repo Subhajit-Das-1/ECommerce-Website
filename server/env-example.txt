@@ -1,0 +1,6 @@
+# Copy this content to a file named .env in the server directory
+
+DB_USERNAME=subhajitdas1768
+DB_PASSWORD=Das344153%40
+JWT_SECRET=your-super-secret-jwt-key-change-in-production
+MONGODB_URI=mongodb+srv://subhajitdas1768:Das344153%40@cluster0.oq7x442.mongodb.net/flipkart-clone?retryWrites=true&w=majority&appName=Cluster0 
