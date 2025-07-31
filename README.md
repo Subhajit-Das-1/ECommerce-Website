@@ -2,6 +2,20 @@
 
 A full-stack e-commerce platform built with React frontend and Node.js backend, featuring user authentication, product management, shopping cart, and payment integration.
 
+## 🌐 Deployment
+
+### Live Demo
+- **Frontend**: [https://e-commerce-website-4939.vercel.app/](https://e-commerce-website-4939.vercel.app/)
+- **Backend API**: [https://ecommerce-website-3-9ze3.onrender.com](https://ecommerce-website-3-9ze3.onrender.com)
+
+### Vercel Deployment
+The project is configured for deployment on Vercel with:
+- **Build Command**: `npm run vercel-build`
+- **Output Directory**: `public`
+- **Start Command**: `npm start`
+
+### Environment Variables for Production
+Make sure to set all required environment variables in your deployment platform.
 ## ✨ Features
 
 ### 🛍️ Shopping Experience
