@@ -30,7 +30,17 @@ if (username && password && username !== 'your_mongodb_username') {
 
 app.use(bodyParser.json({ extended: true }));
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(cors());
+app.use(cors({
+    origin: [
+        'https://e-commerce-website-rose-pi.vercel.app',
+        'https://e-commerce-website-4939.vercel.app',
+        'http://localhost:3000',
+        'http://localhost:3001'
+    ],
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'x-auth-token']
+}));
 app.use('/', Routes);
 
 export let paytmMerchantkey = process.env.PAYTM_MERCHANT_KEY || 'bKMfNxPPf_QdZppa';

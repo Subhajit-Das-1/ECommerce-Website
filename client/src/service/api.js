@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { jwtService } from './jwtService.js';
 
-const url = 'http://localhost:8000';
+const url = process.env.REACT_APP_API_URL || 'https://ecommerce-website-3-9ze3.onrender.com';
 
 // Create axios instance with default config
 const api = axios.create({
