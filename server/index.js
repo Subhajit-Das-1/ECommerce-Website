@@ -35,6 +35,7 @@ app.use(cors({
         'https://e-commerce-website-rose-pi.vercel.app',
         'https://e-commerce-website-4939.vercel.app',
         'https://e-commerce-website-u9z2.vercel.app',
+        'https://e-commerce-website-eyx4wpdw7-subhajit-dass-projects.vercel.app',
         'http://localhost:3000',
         'http://localhost:3001'
     ],
