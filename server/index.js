@@ -34,6 +34,7 @@ app.use(cors({
     origin: [
         'https://e-commerce-website-rose-pi.vercel.app',
         'https://e-commerce-website-4939.vercel.app',
+        'https://e-commerce-website-u9z2.vercel.app',
         'http://localhost:3000',
         'http://localhost:3001'
     ],
